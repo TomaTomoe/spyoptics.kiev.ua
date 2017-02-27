@@ -25,3 +25,25 @@ img.isInCartMark, img.loadingIcon {
     text-align: center;
     margin-bottom: .5em;
 }
+
+#mobile-shop-benefits-infographic {
+	position: relative;
+	width: 100%;
+}
+
+.benefits-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	max-width: 750px;
+	text-align: center;
+}
+
+.mobile-shop-benefits-infographic-icon {
+	position: relative;
+	display: inline-block;
+	min-width: 80px;
+	width: 20%;
+	max-width: 150px;
+}

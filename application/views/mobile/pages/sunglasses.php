@@ -42,7 +42,7 @@ $(document).ready(function(){
 		Нажмите на очки, чтобы добавить/убрать очки из корзинки. <br />
         Нажмите на кнопку-корзинку для того чтобы оформить заказ.
 	</div>
-    
+
     <!--
     <div class="loading-model-spinner">
         Loading...
@@ -70,7 +70,7 @@ $(document).ready(function(){
                 </div>
                 <div class="sunglassesImgContainer" id="<?=$sunglass['id']?>" >
                     <img
-                        src="<?=IMG?>mobile/pages/sunglasses/inCart.svg" 
+                        src="<?=IMG?>mobile/pages/sunglasses/inCart.svg"
                         class = "isInCartMark"
                         <?php if($sunglass['inCart']): ?>
                             style = "display: inline-block";
@@ -82,6 +82,13 @@ $(document).ready(function(){
             </div>
         <?php endforeach; ?>
     </div>
+		<div id="mobile-shop-benefits-infographic">
+			<div class="benefits-container">
+				<img class="mobile-shop-benefits-infographic-icon" src="<?=IMG?>shop-benefits-infographic/5_years.svg" />
+				<img class="mobile-shop-benefits-infographic-icon" src="<?=IMG?>shop-benefits-infographic/uv_protect.svg" />
+				<img class="mobile-shop-benefits-infographic-icon" src="<?=IMG?>shop-benefits-infographic/100_percent.svg" />
+				<img class="mobile-shop-benefits-infographic-icon" src="<?=IMG?>shop-benefits-infographic/many_clients.svg" />
+				<img class="mobile-shop-benefits-infographic-icon" src="<?=IMG?>shop-benefits-infographic/14_days.svg" />
+			</div>
+		</div>
 </div>
-
-
