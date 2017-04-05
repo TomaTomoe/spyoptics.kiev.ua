@@ -43,7 +43,22 @@ img.isInCartMark, img.loadingIcon {
 .mobile-shop-benefits-infographic-icon {
 	position: relative;
 	display: inline-block;
-	min-width: 80px;
-	width: 20%;
-	max-width: 150px;
 }
+@media all and (max-width: 410px) {
+	.mobile-shop-benefits-infographic-icon {
+		width: 50%;
+	}
+}
+@media (min-width: 411px) and (max-width: 650px) {
+        .mobile-shop-benefits-infographic-icon {
+                width: 33%;
+		max-width: 160px;
+        }
+}
+@media (min-width: 651px) and (max-width: 650px) {
+        .mobile-shop-benefits-infographic-icon {
+                width: 20%;
+                max-width: 160px;
+        }
+}
+
