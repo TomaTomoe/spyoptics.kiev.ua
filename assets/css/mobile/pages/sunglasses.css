@@ -55,9 +55,9 @@ img.isInCartMark, img.loadingIcon {
 		max-width: 160px;
         }
 }
-@media (min-width: 651px) and (max-width: 650px) {
+@media (min-width: 651px) {
         .mobile-shop-benefits-infographic-icon {
-                width: 20%;
+                width: 19%;
                 max-width: 160px;
         }
 }
